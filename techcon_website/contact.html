@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact TechCon 2024</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <a href="mailto:email@example.com">info@techcon2024.com</a>
+      <a href="https://twitter.com/TechCon2024" target="_blank">Twitter</a>
+      <a href="https://www.linkedin.com/company/techcon2024" target="_blank"
+        >LinkedIn</a
+      >
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509949!2d144.9537353153165!3d-37.81627997975157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11f5b5%3A0x5045675218ceed30!2sTechCon%202024!5e0!3m2!1sen!2sau!4v1616161616161!5m2!1sen!2sau"
+        frameborder="0"
+      ></iframe>
+      <h2>Get in Touch</h2>
+      <form action="/submit-contact" method="post">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" required></textarea
+        ><br /><br />
+
+        <button type="submit">Send Message</button>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2024 TechCon. All rights reserved.</p>
+      <p>
+        Follow us on <a href="https://twitter.com/TechCon2024">Twitter</a> and
+        <a href="https://www.linkedin.com/company/techcon2024">LinkedIn</a>.
+      </p>
+    </footer>
+  </body>
+</html>
